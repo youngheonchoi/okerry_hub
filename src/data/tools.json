@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "app": {
+    "title": "Okerry Hub",
+    "description": "자주 쓰는 도구를 한 곳에서 찾고 바로 엽니다"
+  },
+  "categories": [
+    { "id": "development", "name": "개발", "order": 10, "visible": true },
+    { "id": "text", "name": "텍스트", "order": 20, "visible": true },
+    { "id": "calculation-conversion", "name": "계산·변환", "order": 30, "visible": true }
+  ],
+  "badges": [
+    { "id": "open", "label": "오픈", "className": "uh-tag--open" },
+    { "id": "closed", "label": "미오픈", "className": "uh-tag--closed" }
+  ],
+  "tools": [
+    {
+      "id": "json-formatter",
+      "name": "JSON 포맷터",
+      "glyph": "{ }",
+      "description": "들여쓰기 정리와 문법 검증을 한 번에",
+      "url": "https://jsonformatter.org",
+      "categoryId": "development",
+      "badgeId": "open",
+      "order": 10,
+      "visible": true
+    },
+    {
+      "id": "char-counter",
+      "name": "글자수 세기",
+      "glyph": "가",
+      "description": "공백 포함·제외, 바이트까지",
+      "url": "",
+      "categoryId": "text",
+      "badgeId": "closed",
+      "order": 10,
+      "visible": true
+    },
+    {
+      "id": "unit-converter",
+      "name": "단위 변환",
+      "glyph": "±",
+      "description": "길이·무게·데이터 용량",
+      "url": "",
+      "categoryId": "calculation-conversion",
+      "badgeId": "closed",
+      "order": 10,
+      "visible": true
+    }
+  ],
+  "ui": {
+    "defaultView": "grid",
+    "defaultCategoryId": "all",
+    "searchFields": ["name", "description"]
+  }
+}
