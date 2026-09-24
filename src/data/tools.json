@@ -15,35 +15,13 @@
   ],
   "tools": [
     {
-      "id": "json-formatter",
-      "name": "JSON 포맷터",
-      "glyph": "{ }",
-      "description": "들여쓰기 정리와 문법 검증을 한 번에",
-      "url": "https://jsonformatter.org",
+      "id": "1",
+      "name": "okerry UI",
+      "glyph": "UI",
+      "description": "일관된 UI를 제공",
+      "url": "https://okerry-ui.vercel.app",
       "categoryId": "development",
       "badgeId": "open",
-      "order": 10,
-      "visible": true
-    },
-    {
-      "id": "char-counter",
-      "name": "글자수 세기",
-      "glyph": "가",
-      "description": "공백 포함·제외, 바이트까지",
-      "url": "",
-      "categoryId": "text",
-      "badgeId": "closed",
-      "order": 10,
-      "visible": true
-    },
-    {
-      "id": "unit-converter",
-      "name": "단위 변환",
-      "glyph": "±",
-      "description": "길이·무게·데이터 용량",
-      "url": "",
-      "categoryId": "calculation-conversion",
-      "badgeId": "closed",
       "order": 10,
       "visible": true
     }
